@@ -1,21 +1,20 @@
 # Cloud Cost Optimization & Anomaly Detection System  
 
 ## 🚀 Problem  
-Companies overspend on cloud because of unused resources, overprovisioning, and sudden cost spikes.  
+Organizations often overspend on cloud infrastructure due to unused resources, overprovisioning, and unexpected cost spikes in cloud services.
 
 ## 💡 Solution  
-This system monitors AWS cost data, detects anomalies using machine learning, and alerts teams instantly.  
+This system monitors **Azure cloud cost data**, detects abnormal spending patterns using **machine learning–based anomaly detection**, and enables proactive cost optimization and governance.
 
 ## 🛠 Tech Stack  
-- **Backend:** Java 17, Spring Boot, Maven  
-- **Database:** PostgreSQL  
-- **ML Engine:** Python (Isolation Forest, Prophet)  
-- **Cloud Services:** AWS Cost Explorer API, SNS  
-- **Visualization:** Grafana / React.js  
-
+- **Backend / ML:** Python  
+- **Machine Learning:** Isolation Forest, Time-Series Forecasting (ARIMA / Prophet – optional)  
+- **Data Processing:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn / Streamlit  
+- **Cloud Services:** Microsoft Azure (Cost Management data, Blob Storage – simulated)  
 
 ## 🔧 How to Run  
-1. Clone the repo  
+1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/cloud-cost-optimizer.git
-   cd cloud-cost-optimizer
+   git clone https://github.com/your-username/cloud-cost-anomaly-detection.git
+   cd cloud-cost-anomaly-detection
